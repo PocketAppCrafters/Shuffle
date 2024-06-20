@@ -130,7 +130,7 @@ class SwipeCardStackTest_MainMethods: QuickSpec {
 
         context("and there is at least one more card to load") {
           let testLoadCard = SwipeCard()
-          let numberOfVisibleCards: Int = 2
+          let numberOfVisibleCards: Int = 4
           let remainingIndices = [0, 1, 2]
 
           beforeEach {

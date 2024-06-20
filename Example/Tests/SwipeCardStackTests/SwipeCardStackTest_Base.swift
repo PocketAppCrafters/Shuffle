@@ -70,7 +70,7 @@ class SwipeCardStackTest_Base: QuickSpec {
       }
 
       func testDefaultProperties() {
-        expect(cardStack.numberOfVisibleCards) == 2
+        expect(cardStack.numberOfVisibleCards) == 4
 
         let expectedInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         expect(cardStack.cardStackInsets) == expectedInsets
